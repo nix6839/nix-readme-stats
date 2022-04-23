@@ -1,0 +1,19 @@
+{
+  "extends": ["airbnb-base", "airbnb-typescript/base", "prettier"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "env": {
+    "node": true,
+    "es2022": true
+  },
+  "overrides": [
+    {
+      "files": ["tests/**/*.ts"],
+      "parserOptions": {
+        "project": "./tsconfig.eslint.json"
+      },
+      "env": { "jest": true, "node": true }
+    }
+  ]
+}

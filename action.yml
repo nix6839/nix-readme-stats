@@ -1,0 +1,10 @@
+name: "Nix's README action"
+description: "Generate Nix's README stats."
+inputs:
+  who_to_greet:
+    description: 'Who to greet'
+    required: true
+    default: 'World'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'

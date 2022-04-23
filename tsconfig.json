@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext"],
+    "target": "esnext",
+    "module": "commonjs",
+    "outDir": "./build",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "exclude": ["node_modules", "tests/**/*.ts"]
+}
